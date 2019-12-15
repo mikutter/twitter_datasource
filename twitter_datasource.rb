@@ -16,6 +16,10 @@ Plugin.create :twitter_datasource do
     ds
   end
 
+  def active_datasources
+    Plugin.filtering(:active_datasources, Set.new)
+  end
+
   filter_extract_datasources do |ds|
     [ds.merge(datasources)]
   end
