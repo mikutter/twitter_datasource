@@ -1,0 +1,11 @@
+---
+slug: :twitter_datasource
+depends:
+  mikutter: '4.0.0'
+  plugin:
+  - twitter
+version: '1.0'
+author: toshi_a
+name: ツイートデータソース
+description: >-
+  ホームタイムライン、メンション、引用などのツイートを受信する様々なデータソースを追加します
