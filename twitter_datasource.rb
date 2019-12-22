@@ -17,7 +17,7 @@ Plugin.create :twitter_datasource do
   end
 
   def active_datasources
-    Plugin.filtering(:active_datasources, Set.new)
+    Plugin.filtering(:active_datasources, Set.new).first
   end
 
   filter_extract_datasources do |ds|
