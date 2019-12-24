@@ -4,7 +4,7 @@ depends:
   mikutter: '4.0.0'
   plugin:
   - twitter
-version: '1.0'
+version: '1.1'
 author: toshi_a
 name: ツイートデータソース
 description: >-
